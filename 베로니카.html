@@ -1,16 +1,27 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
     </head>
     <body>
-        <div>
-           <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/><br/>
+        <div id="top">
+           <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
            <input type="search" value="검색"/>
+            <div>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
         <div id="profile"> 
-            <img src="https://pbs.twimg.com/media/ELQ3D60UcAAdh1r.jpg:small"width="50px"/>
-            <div>
-                <h2>Baby_sister_00</h2>
+            <div id="profile_pic">
+                <img class="circle_pic" src="https://pbs.twimg.com/media/ELQ3D60UcAAdh1r.jpg:small"width="50px"/>
+            </div>
+            <div id="profile_info">
+                <div id="id">Baby_sister_00
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>
         </div>
@@ -26,49 +37,72 @@
             <input type="file" accept="video/*"/>
         </p>    
         </div>
-        <div>
+        <div id="highlight_area">
             <div class="highlight">
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmxyw45e9OFiOJm_G5YD7X_tsyN148h7xpbw&usqp=CAU"height="35px"/>
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmxyw45e9OFiOJm_G5YD7X_tsyN148h7xpbw&usqp=CAU"height="35px"/>
                 </div>
                 <div>
                     😍
                 </div>    
             </div>
             <div class="highlight">
-                <div>    
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfYvr48V0UAE-Mvh-NFDAT3DZoM1LZcwKuKQ&usqp=CAU"height="35px"/>
+                <div class="highlight_pic">    
+                    <img class="circle_pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfYvr48V0UAE-Mvh-NFDAT3DZoM1LZcwKuKQ&usqp=CAU"height="35px"/>
                 </div>
                 <div>
                      😒
                 </div>
             </div>
-        </div>    
-        <div>
-            <div>
+            <div></div>
+        </div>
+        <div id="stat_bar">
+            <div class="stat">
                 게시물<br/>
                 100
             </div>
-            <div>    
+            <div class="stat">    
                 팔로워<br/>
                 100M
             </div>
-            <div> 
+            <div class="stat"> 
                 팔로우<br/>
                 0
             </div>
         </div>
-        <div>아이콘이 들어갈 자리</div>
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fas fa-border-all"></i>
+            </div>
+            <div>
+                <i class="fas fa-film"></i>
+            </div>
+            <div>
+                <i class="far fa-play-circle"></i>
+            </div>
+            <div>
+                <i class="far fa-bookmark"></i>
+            </div>
+            <div>
+                <i class="fas fa-user-tag"></i>
+            </div>
+        </div>
         <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+            <div class="thumbnail_grid">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXZ01rtwIfHY4tOIGHQ8V7_xHH8FaF9vnZA&usqp=CAU"width="32%"/>
+            </div>
         </div>
     </body>
 </html>
